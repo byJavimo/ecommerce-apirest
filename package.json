@@ -1,0 +1,27 @@
+{
+  "name": "ecommerce-apirest",
+  "version": "1.0.0",
+  "description": "This is an ecommerce API project  using Node.js and Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byJavimo/ecommerce-apirest.git"
+  },
+  "author": "Javier Mora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byJavimo/ecommerce-apirest/issues"
+  },
+  "homepage": "https://github.com/byJavimo/ecommerce-apirest#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
