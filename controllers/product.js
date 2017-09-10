@@ -27,6 +27,7 @@ function saveProduct (req, res) {
     product.price = req.body.price
     product.category = req.body.category
     product.description = req.body.description
+    product.isFeatured = req.body.isFeatured
 
     product.save(function (err, productStored) {
         if (err) res.status(500).send({message: `Error saving product in data base: ${err}`})
